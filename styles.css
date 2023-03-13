@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'merriweather',  serif;
+    font-size: 2rem;
+    
+}
+
+h1 {
+    margin-top: 0px;
+    
+    margin: 0px auto 0px auto;
+    padding-top: 150px;
+    font-family: 'Sacramento',cursive;
+    font-size: 5.625rem;/*but pixel toh same rahega toh agar browser zoom hoga toh wo change nhi hoga toh hum percentage ke hisaab se lenge 100% = 16px so 90px = 562.65%;*/ 
+    /*562.5%=5.625em*/
+    
+} 
+h2 {
+  
+    font-family: 'Montserrat',sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat',sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    
+}
+.cloud {
+    width: 250px;
+    height: 150px;
+}
+.mountain {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin-top: 15px;
+    top: 15px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 425px;
+    bottom: 100px;
+}
+
+.bottom-right-cloud {
+    position: absolute;
+    right: 250px;
+    bottom: 200px;
+}
+.top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 20px;
+
+}
+.subtitle {
+    font-size: 2.5rem;/*1em = 16 pixel then, 40pixel == 40/16=2.5rem*/
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+.web-img {
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-right: 40px;
+    padding-bottom: 70px;
+    top: 80px;
+}
+.code-img {
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+    padding-bottom: 70px;
+    position: relative ;
+    top: 80px
+}
+.pic {
+    margin-top: 30px;
+    border-radius: 100%;
+    width:200px;
+    height:225px;
+}
+.new-cloud {
+    position: absolute;
+    left: 80px;
+    top: 100px;
+}
+.new2-cloud {
+    position: absolute;
+    left: 1050px;
+    bottom: 30px;
+}
